@@ -1,5 +1,4 @@
 {
-  "extends": "expo/tsconfig.base",
   "compilerOptions": {
     "strict": true,
     "types": [
@@ -24,5 +23,6 @@
   "exclude": [
     "example",
     "node_modules"
-  ]
+  ],
+  "extends": "expo/tsconfig.base"
 }
