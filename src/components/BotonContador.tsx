@@ -1,20 +1,3 @@
-/**
- * ============================================================================
- * 🥊 RETO 03 — BotonContador (Pressable reutilizable)
- * Módulo: Programación Móvil — 3° Bachillerato Técnico (UETS)
- * ============================================================================
- *
- * 📖 MISIÓN:
- * Botón reutilizable con props tipadas, variantes de color y feedback táctil.
- *
- * 🎨 Paleta UETS (referencia): primary #FDE047 · secondary #38BDF8 · danger #F43F5E
- *
- * 🛠️ RETO (responde con código):
- *  1. ¿Dónde se aplica la variante recibida por props dentro del estilo del botón?
- *  2. ¿Qué propiedad de estilo le falta a cada variante para verse con su color?
- *  3. Ejecuta en tu terminal: `pnpm run start:03`
- */
-
 import { Pressable, StyleSheet, Text } from 'react-native';
 
 /**
@@ -79,9 +62,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   // 🤔 ¿Qué propiedad de estilo necesita cada variante para pintarse con su color?
-  primary: {},
-  secondary: {},
-  danger: {},
+  primary: {backgroundColor: '#FDE047'},
+  secondary: {backgroundColor: '#38BDF8'},
+  danger: {backgroundColor: '#F43F5E'},
   label: {
     fontWeight: '800',
     fontSize: 16,
